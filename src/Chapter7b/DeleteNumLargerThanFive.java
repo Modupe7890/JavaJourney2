@@ -24,5 +24,6 @@ public class DeleteNumLargerThanFive {
                 i++;
             }
         }
+        System.out.println(list);
     }
 }
