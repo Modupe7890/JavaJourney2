@@ -15,23 +15,35 @@ public class HeartRate{
     this.lastName=lastName;
     this.dateOfBirth = dateOfBirth;
     }
-    public void setFirstName(String firstName){this.firstName=firstName;}
+    public void setFirstName(String firstName){
+        this.firstName=firstName;
+    }
 
-    public String getFirstName(){return firstName;}
+    public String getFirstName(){
+        return firstName;
+    }
 
-    public void setLastName(String lastName){this.lastName=lastName;}
+    public void setLastName(String lastName){
+        this.lastName=lastName;
+    }
 
-    public String getLastName() {return lastName;}
+    public String getLastName() {
+        return lastName;
+    }
 
     public void setDateOfBirth(String dateOfBirth){
     this.dateOfBirth = month + "/" + day + "/" + year;
     }
-    public String getDateOfBirth(){return dateOfBirth;}
+    public String getDateOfBirth(){
+        return dateOfBirth;
+    }
 
     public void setCalculateAge(int calculateAge){
     this.calculateAge = 2023 - year;
     }
-    public int getCalculateAge(){return calculateAge;}
+    public int getCalculateAge(){
+        return calculateAge;
+    }
 
     public void setMaxHeartRate(int maxHeartRate){
     this.maxHeartRate = 220 - calculateAge;

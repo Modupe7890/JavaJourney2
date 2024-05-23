@@ -20,7 +20,7 @@ public class ExampleWitEvenOdd {
                 list.add(x);
             }
             else{
-                list.add(0);
+                list.add(x,0);
             }
         }
     }

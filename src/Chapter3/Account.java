@@ -25,9 +25,11 @@ public class Account {
        }
     }
     public double getBalance() {
+
         return balance;
     }
     public void setName(String name) {
+
         this.name = name;
     }
     public String getName() {
