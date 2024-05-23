@@ -23,5 +23,6 @@ public class ExampleWitEvenOdd {
                 list.add(x,0);
             }
         }
+        System.out.println(list);
     }
 }
