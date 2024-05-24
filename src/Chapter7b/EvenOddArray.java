@@ -36,6 +36,7 @@ public class EvenOddArray {
             System.out.println("The odd numbers in the list are :: ::: :: " +odd.get(i));
             System.out.println("The odd numbers in the list are :: ::: :: " +odd.get(i));
             System.out.println("The odd numbers in the list are :: ::: :: " +odd.get(i));
+            System.out.println("The odd numbers in the list are :: ::: :: " +odd.get(i));
         }
 
 
