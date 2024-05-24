@@ -25,9 +25,18 @@ public class EvenOddArray {
                 even.add(x);   // Add x to the collection of even numbers
 
             } else {
-                odd.add(x);    // Add x to the collection of odd numbers
-                System.out.println(list);
+                odd.add(x);// Add x to the collection of odd numbers
             }
         }
+        for(int i  =0; i < even.size(); i++){
+            System.out.println("The even numbers in the list are :: ::: :: " +even.get(i));
+        }
+
+        for(int i  =0; i < odd.size(); i++){
+            System.out.println("The odd numbers in the list are :: ::: :: " +odd.get(i));
+        }
+
+
+
     }
 }
