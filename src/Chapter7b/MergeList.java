@@ -14,6 +14,12 @@ public class MergeList {
         Collections.addAll(list2, 1, 8, 6, 21, 53, 5, 67, 18);
 
         ArrayList<Integer> result =  new ArrayList<Integer>();
+        result.addAll(list1); //add all values from each list to the new list
+        result.addAll(list2);
+
+        for(Integer x : result) { //a fast way to loop over all elements, only for collections
+            System.out.println(x);
+        }
 
     }
 }
