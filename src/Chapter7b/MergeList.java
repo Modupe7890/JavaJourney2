@@ -21,6 +21,7 @@ public class MergeList {
             System.out.println(x);
             System.out.println(x);
             System.out.println(x);
+            System.out.println(x);
         }
     }
 }
