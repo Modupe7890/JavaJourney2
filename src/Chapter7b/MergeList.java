@@ -20,6 +20,7 @@ public class MergeList {
         for(Integer x : result) { //a fast way to loop over all elements, only for collections
             System.out.println(x);
             System.out.println(x);
+            System.out.println(x);
         }
     }
 }
