@@ -40,5 +40,9 @@ public class TaskDivisible {
         for(int i  =0; i < divisibleBy3.size(); i++) {
             System.out.println("The list of numbers divisible by 3 are :: ::: :: " + divisibleBy3.get(i));
         }
+        for(int i  =0; i < divisibleByNone.size(); i++) {
+            System.out.println("The list of numbers that are not divisible " +
+                    "by 2 or 3 are  :: ::: :: " + divisibleByNone.get(i));
+        }
     }
 }
