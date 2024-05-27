@@ -28,9 +28,13 @@ public class TaskDivisible {
         }
         for (int i = 0; i < list.size(); i++) {
             Integer x = list.get(i);
-            if (x % 2 == 1) {
+            if (x % 3 == 0) {
                 divisibleBy3.add(x);
-            } else {
+            }
+        }
+        for (int i = 0; i < list.size(); i++) {
+            Integer x = list.get(i);
+            if (x % 2 != 0 && x % 3 != 0) {
                 divisibleByNone.add(x);
             }
         }
