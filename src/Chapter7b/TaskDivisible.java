@@ -34,5 +34,11 @@ public class TaskDivisible {
                 divisibleByNone.add(x);
             }
         }
+        for(int i  =0; i < divisibleBy2.size(); i++) {
+            System.out.println("The list of numbers divisible by 2 are :: ::: :: " + divisibleBy2.get(i));
+        }
+        for(int i  =0; i < divisibleBy3.size(); i++) {
+            System.out.println("The list of numbers divisible by 3 are :: ::: :: " + divisibleBy3.get(i));
+        }
     }
 }
