@@ -18,6 +18,7 @@ public class TaskDivisible {
         }
         ArrayList<Integer> divisibleBy2 = new ArrayList<>();
         ArrayList<Integer> divisibleBy3 = new ArrayList<>();
+        ArrayList<Integer> divisibleByNone = new ArrayList<>();
 
         for (int i = 0; i < list.size(); i++) {
             Integer x = list.get(i);
@@ -29,6 +30,8 @@ public class TaskDivisible {
             Integer x = list.get(i);
             if (x % 2 == 1) {
                 divisibleBy3.add(x);
+            } else {
+                divisibleByNone.add(x);
             }
         }
     }
