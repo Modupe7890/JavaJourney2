@@ -25,5 +25,11 @@ public class TaskDivisible {
                 divisibleBy2.add(x);
             }
         }
+        for (int i = 0; i < list.size(); i++) {
+            Integer x = list.get(i);
+            if (x % 2 == 1) {
+                divisibleBy3.add(x);
+            }
+        }
     }
 }
