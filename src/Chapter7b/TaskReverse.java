@@ -18,6 +18,6 @@ public class TaskReverse {
             numbers[i] = 10 - i;
         }
         System.out.println(Arrays.toString(numbers));
-
+        System.out.println(Arrays.toString(numbers));
     }
 }
