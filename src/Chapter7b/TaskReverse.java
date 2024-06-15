@@ -20,6 +20,7 @@ public class TaskReverse {
         System.out.println(Arrays.toString(numbers));
         System.out.println(Arrays.toString(numbers));
         System.out.println(Arrays.toString(numbers));
+        System.out.println(Arrays.toString(numbers));
 
     }
 }
