@@ -7,6 +7,8 @@ public class ElementOfSet {
     public static void main(String[] args) {
 
         Set<String> set = new HashSet<String>();
-
+        set.add("Rain");
+        set.add("In");
+        set.add("Spain");
     }
 }
