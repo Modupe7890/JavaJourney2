@@ -9,7 +9,7 @@ public class TaskElementOfSet {
 
         Set<String> set = new HashSet<>();
         set.add("Stop");
-        set.add("Looking,");
+        set.add("Looking");
         set.add("Listen");
 
         Iterator<String> iterator = set.iterator();
