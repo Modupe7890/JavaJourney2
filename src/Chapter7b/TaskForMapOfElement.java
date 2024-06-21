@@ -22,11 +22,6 @@ public class TaskForMapOfElement {
             String key = pair.getKey();
             String value = pair.getValue();
             System.out.println(key+ ":" +value);
-            System.out.println(key+ ":" +value);
-            System.out.println(key+ ":" +value);
-            System.out.println(key+ ":" +value);
-            System.out.println(key+ ":" +value);
-            System.out.println(key+ ":" +value);
         }
     }
 }
