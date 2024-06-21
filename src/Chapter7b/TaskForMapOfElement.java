@@ -24,6 +24,7 @@ public class TaskForMapOfElement {
             System.out.println(key+ ":" +value);
             System.out.println(key+ ":" +value);
             System.out.println(key+ ":" +value);
+            System.out.println(key+ ":" +value);
         }
     }
 }
