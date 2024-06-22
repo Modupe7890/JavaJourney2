@@ -7,6 +7,6 @@ public class CurrentDate {
     public static void main(String[] args) throws IOException {
         Date today = new Date();
         System.out.println("Current date: " + today);
-
+        System.out.println("Current date: " + today);
     }
 }
