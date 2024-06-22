@@ -8,5 +8,7 @@ public class CurrentDate {
         Date today = new Date();
         System.out.println("Current date: " + today);
         System.out.println("Current date: " + today);
+        System.out.println("Current date: " + today);
+
     }
 }
