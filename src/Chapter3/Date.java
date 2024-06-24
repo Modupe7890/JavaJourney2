@@ -14,11 +14,12 @@ public class Date {
         this.month = month;
         this.year = year;
     }
-    public Date(int currentTime, int day, int month, int year){
-        this.currentTime = new Date;
+    public Date( int day, int month, int year){
+        this.currentTime = new Date();
     }
 
-        public void setDay(int day){
+
+    public void setDay(int day){
         this.day = day;
     }
 
