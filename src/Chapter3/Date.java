@@ -4,7 +4,7 @@ public class Date {
     private int day;
     private int month;
     private int year;
-    private int hour;
+    private int hours;
     private int minutes;
     private int seconds;
     private int currentTime;
@@ -40,12 +40,12 @@ public class Date {
             return month + "/" + day + "/" + year;
 
         }
-        public void setHour(int hour){
-        this.hour = hour;
+        public void setHour(int hours){
+        this.hours = hours;
         }
 
     public int getHour() {
-        return hour;
+        return hours;
     }
 
     public void setMinutes(int minutes) {
