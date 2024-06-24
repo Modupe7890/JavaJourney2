@@ -55,4 +55,12 @@ public class Date {
     public int getMinutes() {
         return minutes;
     }
+
+    public void setSeconds(int seconds) {
+        this.seconds = seconds;
+    }
+
+    public int getSeconds() {
+        return seconds;
+    }
 }
