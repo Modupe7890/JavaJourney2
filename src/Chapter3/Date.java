@@ -14,6 +14,9 @@ public class Date {
         this.month = month;
         this.year = year;
     }
+    public Date(int currentTime, int day, int month, int year){
+        this.currentTime = new Date;
+    }
 
         public void setDay(int day){
         this.day = day;
@@ -44,7 +47,7 @@ public class Date {
         this.hours = hours;
         }
 
-    public int getHour() {
+    public int getHours() {
         return hours;
     }
 
