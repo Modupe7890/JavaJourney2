@@ -19,6 +19,7 @@ public class Date {
         this.currentTime = new Date();
         this.currentTime = new Date();
         this.currentTime = new Date();
+        this.currentTime = new Date();
     }
 
 
