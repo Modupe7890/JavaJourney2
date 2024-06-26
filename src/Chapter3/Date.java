@@ -14,7 +14,14 @@ public class Date {
         this.month = month;
         this.year = year;
     }
-    public  class currentTime(int hours, int minutes, int seconds){
+
+    public Date() {
+        int hour;
+        int minutes;
+        int hours;
+    }
+
+    public class currentTime {
         Date currentTime = new Date();
 
     }
