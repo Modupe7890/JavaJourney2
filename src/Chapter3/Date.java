@@ -14,11 +14,9 @@ public class Date {
         this.month = month;
         this.year = year;
     }
-    public currentTme(){
+    public  class currentTime(int hours, int minutes, int seconds){
         Date currentTime = new Date();
-        this.hours = currentTime.getHours();
-        this.minutes = currentTime.getMinutes();
-        this.seconds = currentTime.getSeconds();
+
     }
 
 
