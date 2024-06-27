@@ -10,7 +10,7 @@ public class TimePassed {
         int minutes = currentTime.getMinutes();
         int seconds = currentTime.getSeconds();
 
-
-
+        System.out.println("Time since Midnight "+hours+ ":" +minutes+ ":" +seconds);
+        System.out.println("Time since Midnight "+hours+ ":" +minutes+ ":" +seconds);
     }
 }
