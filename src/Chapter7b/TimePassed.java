@@ -16,5 +16,6 @@ public class TimePassed {
         System.out.println("Time since Midnight "+hours+ ":" +minutes+ ":" +seconds);
         System.out.println("Time since Midnight "+hours+ ":" +minutes+ ":" +seconds);
         System.out.println("Time since Midnight "+hours+ ":" +minutes+ ":" +seconds);
+        System.out.println("Time since Midnight "+hours+ ":" +minutes+ ":" +seconds);
     }
 }
