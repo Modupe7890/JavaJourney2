@@ -26,5 +26,6 @@ public class Time1 {
         (hour< 12 ? "AM" :"PM"));
         (hour< 12 ? "AM" :"PM"));
         (hour< 12 ? "AM" :"PM"));
+
             }
 }
