@@ -16,6 +16,13 @@ public class ThisClass {
         // required to distinguish between the names
 
     public SimpleTime (int hour, int minutes, int second){
-
+        this.hour = hour;
+        this.minutes = minutes;
+        this.second = second;
+    }
+    // use explicit and implicit "this" to call toUniversalString
+    public String buildString (){
+        return String.format("%24s: %s%n%24s: %s", "this.toUniversalString()",
+                            this.toUniversalString(), "toUniversalString()", toUniversalString());
     }
     }
