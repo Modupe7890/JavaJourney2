@@ -27,9 +27,3 @@ public class ThisClass {
     }
     // convert to String in universal-time format (HH:MM:SS)
     }
-this.second = second;
-this.second = second;
-this.second = second;
-this.second = second;
-this.second = second;
-this.second = second;
