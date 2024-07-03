@@ -29,3 +29,4 @@ public class ThisClass {
     }
 this.second = second;
 this.second = second;
+this.second = second;
