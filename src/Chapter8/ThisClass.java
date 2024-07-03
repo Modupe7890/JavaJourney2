@@ -25,4 +25,6 @@ public class ThisClass {
         return String.format("%24s: %s%n%24s: %s", "this.toUniversalString()",
                             this.toUniversalString(), "toUniversalString()", toUniversalString());
     }
+    // convert to String in universal-time format (HH:MM:SS)
     }
+this.second = second;
