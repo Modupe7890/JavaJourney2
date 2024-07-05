@@ -31,5 +31,6 @@ public class ThisClass {
         return String.format("%02d:%02d:%02d", this.hour, this.minutes, this.second);
         return String.format("%02d:%02d:%02d", this.hour, this.minutes, this.second);
         return String.format("%02d:%02d:%02d", this.hour, this.minutes, this.second);
+        return String.format("%02d:%02d:%02d", this.hour, this.minutes, this.second);
         }
     }
