@@ -29,9 +29,5 @@ public class ThisClass {
     // convert to String in universal-time format (HH:MM:SS)
     public String toUniversalString(){
         return String.format("%02d:%02d:%02d", this.hour, this.minutes, this.second);
-        return String.format("%02d:%02d:%02d", this.hour, this.minutes, this.second);
-        return String.format("%02d:%02d:%02d", this.hour, this.minutes, this.second);
-        return String.format("%02d:%02d:%02d", this.hour, this.minutes, this.second);
-        return String.format("%02d:%02d:%02d", this.hour, this.minutes, this.second);
         }
     }
