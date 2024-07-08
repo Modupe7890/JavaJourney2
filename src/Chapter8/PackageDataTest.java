@@ -15,7 +15,7 @@ public class PackageDataTest {
         System.out.printf("%nAfter changing values:%n%s%n", packageData);
     }
 }
-        class PackageData{
+    class PackageData{
         int number = 0;     // package-access instance variable
         String string = "Hello";    // package-access instance variable
 
@@ -24,4 +24,4 @@ public class PackageDataTest {
             return String.format("number: %d; string: %s", number, string);
         }
 
-        }
+    }
