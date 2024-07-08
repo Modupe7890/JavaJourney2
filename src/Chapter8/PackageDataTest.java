@@ -19,6 +19,9 @@ public class PackageDataTest {
         int number = 0;     // package-access instance variable
         String string = "Hello";    // package-access instance variable
 
-
+            // return PackageData object String representation
+        public String toString(){
+            return String.format("number: %d; string: %s", number, string);
+        }
 
         }
