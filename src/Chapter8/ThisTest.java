@@ -7,7 +7,7 @@ public class ThisTest {
     }
 }
 // class SimpleTime demonstrates the "this" reference
-class  SimpleTime {
+class  SimpleTime1 {
     private int hour;
     private int minute;
     private int second;
@@ -15,7 +15,7 @@ class  SimpleTime {
     // if the constructor uses parameter names identical to
     // instance variable names the "this" reference is
     // required to distinguish between the names
-    public SimpleTime(int hour, int minute, int second){
+    public SimpleTime1(int hour, int minute, int second){
         this.hour = hour;
         this.minute = minute;
         this.second = second;
