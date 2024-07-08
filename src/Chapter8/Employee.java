@@ -6,7 +6,7 @@ public class Employee {
     private Date BirthDate;
     private Date HireDate;
 
-    // constructor to initialize name, birth date and hire date
+    // constructor to initialize name, birthdate and hire date
     public Employee(String FirstName, String LastName, Date BirthDate, Date HireDate){
         this.FirstName = FirstName;
         this.LastName = LastName;
