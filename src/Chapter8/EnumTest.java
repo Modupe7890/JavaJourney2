@@ -11,6 +11,7 @@ public class EnumTest {
         System.out.printf("%nDisplay a range of enum constants:%n");
         // print first four books
         for (Book book : EnumSet.range(Book.JHTP, Book.CPPHTP)) {
-            System.out.printf("%-10s%-45s%s%n", book book.getTitle(), book.getCopyrightYear());
+            System.out.printf("%-10s%-45s%s%n", book, book.getTitle(), book.getCopyrightYear());
+        }
     }
 }
