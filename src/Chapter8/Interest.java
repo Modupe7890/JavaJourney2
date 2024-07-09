@@ -13,7 +13,7 @@ public class Interest {
         // display headers
         System.out.printf("%s%20s%n", "Year", "Amount on deposit");
 
-        System.out.printf("%s%20s%n", "Year", "Amount on deposit");
+
         for(int year =1; year <= 10; year++){
             // Calculate the amount for specific year
             BigDecimal amount = principal.multiply(rate.add(BigDecimal.ONE));
