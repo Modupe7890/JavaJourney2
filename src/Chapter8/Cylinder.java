@@ -46,6 +46,11 @@ public class Cylinder{
         }
     }
     //Getter for height
-    public double getRadius() {
-        return radius;
+    public double getHeight() {
+        return height;
+    }
+    // Method to calculate the volume of the cylinder
+    public double calculateVolume() {
+        return Math.PI * Math.pow(radius, 2) * height;
+    }
 }
