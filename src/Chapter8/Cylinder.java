@@ -1,8 +1,8 @@
 package Chapter8;
 
 public class Cylinder{
-    private double radius;
-    private double height;
+    private static double radius;
+    private static double height;
 
     // constructors
     public Cylinder(){
@@ -50,7 +50,7 @@ public class Cylinder{
         return height;
     }
     // Method to calculate the volume of the cylinder
-    public double calculateVolume() {
+    public static double calculateVolume() {
         return Math.PI * Math.pow(radius, 2) * height;
     }
 }
