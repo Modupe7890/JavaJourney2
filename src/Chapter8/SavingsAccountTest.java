@@ -17,5 +17,12 @@ public class SavingsAccountTest {
             System.out.printf("Month %d: Saver1 Balance: %.2f, Saver2 Balance: %.2f%n",
                     month, saver1.getBalance(), saver2.getBalance());
         }
+        // Set the annual interest rate to 5%
+        SavingsAccount.modifyInterestRate(0.05);
+
+        saver1.calculateMonthlyInterest();
+        saver2.calculateMonthlyInterest();
+        System.out.println("\nBalances after 12 months with 5% annual interest rate:");
+        System.out.printf("Saver1 Balance: %.2f, Saver2 Balance: %.2f%n", saver1.getBalance(), saver2.getBalance());
     }
 }
