@@ -16,4 +16,8 @@ public enum Food {
     public String getType() {
         return type;
     }
+
+    public int getCalories() {
+        return calories;
+    }
 }
