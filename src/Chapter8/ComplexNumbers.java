@@ -41,12 +41,13 @@ public class ComplexNumbers {
         c2.print();
 
         // Add the Complex numbers
-        Complex sum = c1.add(c2);
+        ComplexNumbers sum = c1.add(c2);
         System.out.print("Sum: ");
         sum.print();
 
         // Subtract the Complex numbers
-        Complex difference = c1.subtract(c2);
+        ComplexNumbers difference = c1.subtract(c2);
         System.out.print("Difference: ");
         difference.print();
+    }
 }
