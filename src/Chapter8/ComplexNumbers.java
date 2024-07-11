@@ -8,4 +8,7 @@ public class ComplexNumbers {
         this.realPart = realPart;
         this.imaginaryPart = imaginaryPart;
     }
+    public ComplexNumbers(){
+        this(8,9);
+    }
 }
