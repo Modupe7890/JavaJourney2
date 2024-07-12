@@ -12,6 +12,7 @@ public class EnumFoodTest {
             food.name(), food.getType(), food.getCalories());
             food.name(), food.getType(), food.getCalories());
             food.name(), food.getType(), food.getCalories());
+            food.name(), food.getType(), food.getCalories());
         }
     }
 }
