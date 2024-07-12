@@ -8,11 +8,7 @@ public class EnumFoodTest {
             System.out.printf("%s: Type = %s, Calories = %d%n",
                     food.name(), food.getType(), food.getCalories());
             food.name(), food.getType(), food.getCalories());
-            food.name(), food.getType(), food.getCalories());
-            food.name(), food.getType(), food.getCalories());
-            food.name(), food.getType(), food.getCalories());
-            food.name(), food.getType(), food.getCalories());
-            food.name(), food.getType(), food.getCalories());
+
         }
     }
 }
