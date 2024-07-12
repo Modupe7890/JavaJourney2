@@ -7,7 +7,6 @@ public class EnumFoodTest {
         for(Food food : Food.values()){
             System.out.printf("%s: Type = %s, Calories = %d%n",
                     food.name(), food.getType(), food.getCalories());
-            food.name(), food.getType(), food.getCalories());
 
         }
     }
