@@ -8,5 +8,11 @@ public class CommissionEmployee extends Object{
     private final double commissionRate;
 
     // Constructors
-    public CommissionEmployee(String firstName, String lastName, String socialSecurityNumber)
+    public CommissionEmployee(String firstName, String lastName, String socialSecurityNumber,
+                              double grossSales, double commissionRate){
+        // implicit call to Object's default constructor occurs here
+
+        // if grossSales is invalid throw exception
+
+    }
 }
