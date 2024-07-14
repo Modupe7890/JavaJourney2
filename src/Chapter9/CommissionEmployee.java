@@ -15,9 +15,6 @@ public class CommissionEmployee extends Object{
         // if grossSales is invalid throw exception
         if(grossSales < 0.0){
             throw new IllegalArgumentException("Gross sales must be >= 0.0");
-
-            throw new IllegalArgumentException("Gross sales must be >= 0.0");
-            throw new IllegalArgumentException("Gross sales must be >= 0.0");
         }
     }
 }
