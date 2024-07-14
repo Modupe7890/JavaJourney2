@@ -13,6 +13,9 @@ public class CommissionEmployee extends Object{
         // implicit call to Object's default constructor occurs here
 
         // if grossSales is invalid throw exception
-
+        if(grossSales < 0.0){
+            throw new IllegalArgumentException("Gross sales must be >= 0.0");
+            throw new IllegalArgumentException("Gross sales must be >= 0.0");
+        }
     }
 }
