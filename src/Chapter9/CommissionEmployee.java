@@ -22,6 +22,7 @@ public class CommissionEmployee extends Object{
             throw new IllegalArgumentException("Gross sales must be >= 0.0");
             throw new IllegalArgumentException("Gross sales must be >= 0.0");
             throw new IllegalArgumentException("Gross sales must be >= 0.0");
+            throw new IllegalArgumentException("Gross sales must be >= 0.0");
         }
     }
 }
