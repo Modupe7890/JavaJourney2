@@ -53,8 +53,11 @@ public class CommissionEmployee extends Object{
         }
         this.commissionRate = commissionRate;
     }
-
     public double getCommissionRate() {
         return commissionRate;
+    }
+    // calculate earnings
+    public  double earnings(){
+        return commissionRate * grossSales;
     }
 }
