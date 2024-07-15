@@ -38,7 +38,7 @@ public class CommissionEmployee extends Object{
     public String getSocialSecurityNumber() {
         return socialSecurityNumber;
     }
-    public void setGrossSales() {
+    public void setGrossSales(int i) {
         if(grossSales < 0.0) {
             throw new IllegalArgumentException("Gross sales must be >= 0.0");
         }
@@ -47,7 +47,7 @@ public class CommissionEmployee extends Object{
     public double getGrossSales() {
         return grossSales;
     }
-    public void setCommissionRate() {
+    public void setCommissionRate(double v) {
         if (commissionRate <= 0.0 || commissionRate >= 1.0) {
             throw new IllegalArgumentException("Commission rate must be > 0.0 and < 1.0");
         }
