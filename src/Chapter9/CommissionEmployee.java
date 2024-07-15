@@ -23,6 +23,7 @@ public class CommissionEmployee extends Object{
         this.firstName = firstName;
         this.lastName = lastName;
         this.socialSecurityNumber = socialSecurityNumber;
-
+        this.grossSales = grossSales;
+        this.commissionRate = commissionRate;
     }
 }
