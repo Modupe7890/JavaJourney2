@@ -34,4 +34,16 @@ public class CommissionEmployee extends Object{
     public String getLastName() {
         return lastName;
     }
+
+    public String getSocialSecurityNumber() {
+        return socialSecurityNumber;
+    }
+
+    public double getCommissionRate() {
+        return commissionRate;
+    }
+
+    public double getGrossSales() {
+        return grossSales;
+    }
 }
