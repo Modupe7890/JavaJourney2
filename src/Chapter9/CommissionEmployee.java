@@ -26,4 +26,12 @@ public class CommissionEmployee extends Object{
         this.grossSales = grossSales;
         this.commissionRate = commissionRate;
     }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
 }
