@@ -16,7 +16,7 @@ public class BasePlusCommissionEmployee {
         if (commissionRate <= 0.0 || commissionRate >= 1.0){
             throw new IllegalArgumentException("Commission rate must be > 0.0 and < 1.0");
         }
-        if(baseSalary > 0.0){
+        if(baseSalary < 0.0){
             throw new IllegalArgumentException("Base salary must be >= 0.0");
         }
         this.firstName = firstName;
@@ -58,6 +58,19 @@ public class BasePlusCommissionEmployee {
         }
         this.baseSalary = baseSalary;
     }
+
+    public double getGrossSales() {
+        return grossSales;
+    }
+
+    public double getCommissionRate() {
+        return commissionRate;
+    }
+
+    public double getBaseSalary() {
+        return baseSalary;
+    }
+
     public double earnings(){
         return baseSalary + (commissionRate * grossSales);
     }
@@ -71,4 +84,5 @@ public class BasePlusCommissionEmployee {
                 "commission rate", commissionRate, "Base Salary", baseSalary);
 
     }
+
 }
