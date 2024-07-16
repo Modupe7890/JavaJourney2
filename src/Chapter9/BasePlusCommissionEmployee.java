@@ -26,4 +26,19 @@ public class BasePlusCommissionEmployee {
         this.commissionRate = commissionRate;
         this.baseSalary = baseSalary;
     }
+    public String getFirstName(){
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public String getSocialSecurityNumber() {
+        return socialSecurityNumber;
+    }
+
+    public void setGrossSales(double grossSales) {
+        this.grossSales = grossSales;
+    }
 }
