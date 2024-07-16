@@ -64,7 +64,7 @@ public class BasePlusCommissionEmployee {
     // return String representation of BasePlusCommissionEmployee
     @Override
     public String toString() {
-        System.out.printf("%s: %s %s%n%s: %s%n%s: %.2f%n%s: %.2f%n%s: %.2f","base-salaried commission employee",
+        return String.format("%s: %s %s%n%s: %s%n%s: %.2f%n%s: %.2f%n%s: %.2f","base-salaried commission employee",
                 "commission employee", firstName, lastName,
                 "social security number", socialSecurityNumber,
                 "gross sales", grossSales,
