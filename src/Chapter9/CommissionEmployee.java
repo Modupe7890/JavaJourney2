@@ -67,6 +67,5 @@ public class CommissionEmployee extends Object{
                 "social security number", socialSecurityNumber,
                 "gross sales", grossSales,
                 "commission rate", commissionRate);
-
     }
 }
