@@ -6,11 +6,11 @@ public class BasePlusCommissionEmployee {
     private final String socialSecurityNumber;
     private double grossSales;
     private double commissionRate;
-    private  double baseSalary;
+    private double baseSalary;
 
     // six-argument constructor
     public BasePlusCommissionEmployee(String firstName, String lastName, String socialSecurityNumber,
-                                      double grossSales,double commissionRate, double baseSalary) {
+                                      double grossSales, double commissionRate, double baseSalary) {
         //implicit call to Object's default constructor occurs here
         // if grossSales is invalid throw exception
         if (grossSales < 0.0) {
@@ -32,37 +32,62 @@ public class BasePlusCommissionEmployee {
         this.commissionRate = commissionRate;
         this.baseSalary = baseSalary;
     }
+
     // return first name
-     public String getFirstName() {
-        return firstName;}
+    public String getFirstName() {
+        return firstName;
+    }
+
     // return lastName
-    public String getLastName(){
+    public String getLastName() {
         return lastName;
     }
+
     // return social security number
-     public String getSocialSecurityNumber() {
+    public String getSocialSecurityNumber() {
         return socialSecurityNumber;
-     }
-     // set gross sales amount
-     public void setGrossSales(double grossSales) {
-         if (grossSales < 0.0) {
-             throw new IllegalArgumentException("Gross sales must be >= 0.0");
-         }
-         this.grossSales = grossSales;
-     }
+    }
+
+    // set gross sales amount
+    public void setGrossSales(double grossSales) {
+        if (grossSales < 0.0) {
+            throw new IllegalArgumentException("Gross sales must be >= 0.0");
+        }
+        this.grossSales = grossSales;
+    }
+
     // return gross sales amount
-     public double getGrossSales() {
+    public double getGrossSales() {
         return grossSales;
-     }
-     // set commission rate
-     public void setCommissionRate(double commissionRate) {
-         if (commissionRate <= 0.0 || commissionRate >= 1.0) {
-             throw new IllegalArgumentException("Commission rate must be > 0.0 and < 1.0");
-         }
-         this.commissionRate = commissionRate;
-     }
+    }
+
+    // set commission rate
+    public void setCommissionRate(double commissionRate) {
+        if (commissionRate <= 0.0 || commissionRate >= 1.0) {
+            throw new IllegalArgumentException("Commission rate must be > 0.0 and < 1.0");
+        }
+        this.commissionRate = commissionRate;
+    }
+
     // return commission rate
-     public double getCommissionRate() {
+    public double getCommissionRate() {
         return commissionRate;
     }
+
+    // set base salary
+    public void setBaseSalary(double baseSalary) {
+        if (baseSalary < 0.0) {
+            throw new IllegalArgumentException("Base salary must be >= 0.0");
+        }
+
+        this.baseSalary = baseSalary;
+    }
+    // return base salary
+    public double getBaseSalary() {
+        return baseSalary;
+    }
+    // calculate earnings
+     public double earnings() {
+         return baseSalary + (commissionRate * grossSales);
+     }
 }
