@@ -90,4 +90,6 @@ public class BasePlusCommissionEmployee {
      public double earnings() {
          return baseSalary + (commissionRate * grossSales);
      }
+    // return String representation of BasePlusCommissionEmployee
+    @Override
 }
