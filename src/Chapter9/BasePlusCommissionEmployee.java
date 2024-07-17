@@ -61,4 +61,8 @@ public class BasePlusCommissionEmployee {
          }
          this.commissionRate = commissionRate;
      }
+    // return commission rate
+     public double getCommissionRate() {
+        return commissionRate;
+    }
 }
