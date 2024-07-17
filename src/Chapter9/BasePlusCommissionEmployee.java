@@ -32,4 +32,11 @@ public class BasePlusCommissionEmployee {
         this.commissionRate = commissionRate;
         this.baseSalary = baseSalary;
     }
+    // return first name
+     public String getFirstName() {
+        return firstName;}
+    // return lastName
+    public String getLastName(){
+        return lastName;
+    }
 }
