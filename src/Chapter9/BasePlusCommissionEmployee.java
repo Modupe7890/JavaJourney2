@@ -92,4 +92,6 @@ public class BasePlusCommissionEmployee {
      }
     // return String representation of BasePlusCommissionEmployee
     @Override
-}
+    public String toString() {
+            return String.format("%s: %s %s%n%s: %s%n%s: %.2f%n%s: %.2f%n%s: %.2f",
+    }
