@@ -12,6 +12,6 @@ public class BasePlusCommissionEmployeeTest {
         System.out.printf("%s %s%n", "Last name is",employee.getLastName());
         System.out.printf("%s %s%n", "Social security number is",employee.getSocialSecurityNumber());
         System.out.printf("%s %.2f%n", "Gross sales is",employee.getGrossSales());
-        System.out.printf("%s %.2f%n", "Commission rate is ", employee.getCommissionRate());
+        System.out.printf("%s %.2f%n", "Commission rate is ",employee.getCommissionRate());
     }
 }
