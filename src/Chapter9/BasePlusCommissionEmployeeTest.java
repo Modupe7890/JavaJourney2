@@ -9,5 +9,7 @@ public class BasePlusCommissionEmployeeTest {
         // get base-salaried commission employee data
         System.out.printf("Employee information obtained by get methods:%n");
         System.out.printf("%s %s%n", "First name is",employee.getFirstName());
+        System.out.printf("%s %s%n", "Last name is",employee.getLastName());
+        System.out.printf("%s %s%n", "Social security number is",employee.getSocialSecurityNumber());
     }
 }
