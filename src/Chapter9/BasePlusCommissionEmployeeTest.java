@@ -19,7 +19,5 @@ public class BasePlusCommissionEmployeeTest {
         System.out.printf("%n%s:%n%n%s%n",
                 "Updated employee information obtained by toString",employee.toString());
         "Updated employee information obtained by toString",employee.toString());
-        "Updated employee information obtained by toString",employee.toString());
-
     }
 }
