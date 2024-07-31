@@ -20,5 +20,6 @@ public class BasePlusCommissionEmployeeTest {
                 "Updated employee information obtained by toString",employee.toString());
         "Updated employee information obtained by toString",employee.toString());
         "Updated employee information obtained by toString",employee.toString());
+        "Updated employee information obtained by toString",employee.toString());
     }
 }
