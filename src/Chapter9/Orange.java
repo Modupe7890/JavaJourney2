@@ -1,16 +1,16 @@
 package Chapter9;
 
 public class Orange extends Fruit {
-    public Orange(String shape, String color, int calories) {
-
+    public Orange(String shape, String colour, int calories) {
+        super(shape, colour, calories);
+    }
 
         @Override
-                public String toString; {
+                public String toString () {
             return "Orange{" +
                     "shape='" + getShape() + '\'' +
-                    ", color='" + getColor() + '\'' +
+                    ", colour='" + getColour() + '\'' +
                     ", calories=" + getCalories() +
                     '}';
         }
-    }
 }
