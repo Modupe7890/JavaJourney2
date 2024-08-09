@@ -19,7 +19,7 @@ public class QuizGame {
                 {"a) 0", "b) 1", "c) 2", "d) 3"},
                 {"a) 16", "b) 8", "c) 11", "d) 4"},
                 {"a) Earth", "b) Mars", "c) Jupiter", "d) Saturn"},
-                {"a) Paris", "b) London", "c) Rome", "d) Berlin"},
+                {"a) 365", "b) 367", "c) 366", "d) 400"}
 
         };
     }
