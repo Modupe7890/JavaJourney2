@@ -26,8 +26,20 @@ public class QuizGame {
         char[] answers = {'c', 'c', 'a', 'a', 'b'};
 
         int score = 0;
+        for (int i = 0; i < args.length; i++) {
+            System.out.println(i);
+            for (String option : options[i]) {
+                System.out.println(option);
+            }
+            System.out.print("Choose the correct option (a/b/c/d): ");
+            char userAnswer = scanner.next().toLowerCase().charAt(0);
 
-        System.out.print("Choose the correct option (a/b/c/d): ");
-        char userAnswer = scanner.next().toLowerCase().charAt(0);
+            if (userAnswer == answers[i]) {
+                System.out.println("Correct!\n");
+                score++;
+            } else {
+                System.out.println("Wrong! The correct answer was " + answers[i] + ".\n");
+            }
+        }
     }
 }
