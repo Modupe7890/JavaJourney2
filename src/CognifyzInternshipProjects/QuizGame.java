@@ -24,5 +24,10 @@ public class QuizGame {
         };
         //Array of correct answers
         char[] answers = {'c', 'c', 'a', 'a', 'b'};
+
+        int score = 0;
+
+        System.out.print("Choose the correct option (a/b/c/d): ");
+        char userAnswer = scanner.next().toLowerCase().charAt(0);
     }
 }
