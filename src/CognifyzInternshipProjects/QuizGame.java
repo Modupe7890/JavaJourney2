@@ -7,7 +7,7 @@ public class QuizGame {
 
         Scanner scanner = new Scanner(System.in);
 
-        //quiz questions
+        //An Array of quiz questions
         String[] questions = {
                 "1.) What is the smallest prime number?",
                 "2.) How many time zones are there in Russia?",
@@ -33,8 +33,8 @@ public class QuizGame {
             for (String option : options[i]) {
                 System.out.println(option);
             }
-            System.out.print("Choose the correct option (a/b/c/d): ");
-            char userAnswer = scanner.next().toLowerCase().charAt(5);
+            System.out.print("Choose the correct option (a,b,c,d): ");
+            char userAnswer = scanner.next().toLowerCase().charAt(0);
 
             if (userAnswer == answers[i]) {
                 System.out.println("Correct!\n");
@@ -43,6 +43,6 @@ public class QuizGame {
                 System.out.println("Wrong! The correct answer was " + answers[i] + ".\n");
             }
         }
-        System.out.println("Quiz Over! Your final score is: " + score + "/" + questions.length);
+        System.out.println("Thank You, The Quiz Over! Total Score is: " + score + "/" + questions.length);
     }
 }
