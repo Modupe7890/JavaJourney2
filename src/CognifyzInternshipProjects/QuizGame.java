@@ -41,5 +41,6 @@ public class QuizGame {
                 System.out.println("Wrong! The correct answer was " + answers[i] + ".\n");
             }
         }
+        System.out.println("Quiz Over! Your final score is: " + score + "/" + args.length);
     }
 }
