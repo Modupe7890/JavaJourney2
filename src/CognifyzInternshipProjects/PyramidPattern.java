@@ -5,9 +5,13 @@ public class PyramidPattern {
         // number of pattern rows
         int number = 4;
         for(int i = 0; i <= number; i++){
-            for (int j = number - 1; j > 0; j--){
-                System.out.println(" ");
+            for (int j = number - 1; j > 0; j--) {
+                if (j <= i) {
+                    System.out.println(j);
+                } else {
+                    System.out.println(" ");
                 }
+            }
             for(int j = 1; j <= i; j++){
                 System.out.println(j);
             }
