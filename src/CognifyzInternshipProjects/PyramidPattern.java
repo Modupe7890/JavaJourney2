@@ -1,9 +1,13 @@
 package CognifyzInternshipProjects;
 
+import java.util.Scanner;
+
 public class PyramidPattern {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
         // number of pattern rows
         int number = 4;
+        number = scanner.nextInt();
         for(int i = 0; i <= number; i++){
             for (int j = number - 1; j > 0; j--) {
                 if (j <= i) {
