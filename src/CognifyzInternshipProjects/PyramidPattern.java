@@ -4,24 +4,20 @@ import java.util.Scanner;
 
 public class PyramidPattern {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        // number of pattern rows
-        int number = 4;
-        number = scanner.nextInt();
-        for(int i = 0; i <= number; i++){
-            for (int j = number - 1; j > 0; j--) {
-                if (j <= i) {
-                    System.out.println(j);
-                } else {
-                    System.out.println(" ");
-                }
+        int rows = 5;
+        for (int i = 1; i <= rows; i++) {
+            // Printing spaces
+            for (int j = rows - i; j > 0; j--) {
+                System.out.print(" ");
             }
-            for(int j = 1; j <= i; j++){
-                System.out.println(j);
+
+            // Printing numbers
+            for (int k = 1; k <= i; k++) {
+                System.out.print(k + " ");
             }
-            for(int k = 2; k <= number; k++){
-                System.out.println(k);
-            }
+
+            // Move to the next line
+            System.out.println();
             System.out.println();
         }
     }
