@@ -15,6 +15,7 @@ public class TemperatureConverter {
 
         System.out.println("Select your preferred Conversion Option");
         System.out.println("1. Fahrenheit to Celsius");
+        System.out.println("2. Celsius to Fahrenheit");
 
     }
 }
