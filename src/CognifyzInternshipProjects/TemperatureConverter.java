@@ -14,21 +14,20 @@ public class TemperatureConverter {
         double temp = scanner.nextDouble();
 
         System.out.println("Select your preferred Conversion Option");
-        System.out.println("1. Fahrenheit to Celsius");
-        System.out.println("2. Celsius to Fahrenheit");
+        System.out.println("1. Fahrenheit to Celsius: ");
+        System.out.println("2. Celsius to Fahrenheit: ");
         int Option = scanner.nextInt();
 
         double convertedTemp;
         switch (Option){
             case 1:
                 convertedTemp = fahrenheitToCelsius(temp);
-                System.out.println("Your temperature from " +temp+ "°F"
-                        + convertedTemp+ "has been converted to °C");
+                System.out.println("Your temperature " +temp+ "°F has been converted to " + convertedTemp+ "°C");
                 break;
             case 2:
                 convertedTemp = celsiusToFahrenheit(temp);
-                System.out.println("Your temperature from " +temp+ "°C has been converted to "
-                        + convertedTemp+ "°F");
+                System.out.println("Your temperature from " +temp+"°C has been converted to "
+                        + convertedTemp+ "°F is ");
                 break;
             default:
                 System.out.println("Invalid Option");
