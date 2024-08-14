@@ -22,12 +22,13 @@ public class TemperatureConverter {
         switch (Option){
             case 1:
                 convertedTemp = fahrenheitToCelsius(temp);
-                System.out.println(temp+ "°F is" + convertedTemp+ "°C is");
+                System.out.println("Your temperature from " +temp+ "°F"
+                        + convertedTemp+ "has been converted to °C");
                 break;
             case 2:
                 convertedTemp = celsiusToFahrenheit(temp);
                 System.out.println("Your temperature from " +temp+ "°C has been converted to "
-                        + convertedTemp+ "°F is ");
+                        + convertedTemp+ "°F");
                 break;
             default:
                 System.out.println("Invalid Option");
