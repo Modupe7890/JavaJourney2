@@ -13,6 +13,8 @@ public class TemperatureConverter {
         System.out.print("Enter your Temperature: ");
         double temp = scanner.nextDouble();
 
-        System.out.println();
+        System.out.println("Select your preferred Conversion Option");
+        System.out.println("1. Fahrenheit to Celsius");
+
     }
 }
