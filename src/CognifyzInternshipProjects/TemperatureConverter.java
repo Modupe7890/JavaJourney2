@@ -26,7 +26,8 @@ public class TemperatureConverter {
                 break;
             case 2:
                 convertedTemp = celsiusToFahrenheit(temp);
-                System.out.println(temp+ "°C is" + convertedTemp+ "°F is");
+                System.out.println("Your temperature from " +temp+ "°C has been converted to "
+                        + convertedTemp+ "°F is ");
                 break;
             default:
                 System.out.println("Invalid Option");
