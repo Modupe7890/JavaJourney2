@@ -31,6 +31,7 @@ public class TemperatureConverter {
                 break;
             default:
                 System.out.println("Invalid Option");
+                System.out.println("Invalid Option");
         }
     }
     public static double fahrenheitToCelsius (double fahrenheit){
