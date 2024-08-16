@@ -19,7 +19,11 @@ public class PyramidPattern {
             // Move to the next line
             System.out.println();
             System.out.println();
-
+            System.out.println();
+            System.out.println();
+            System.out.println();
+            System.out.println();
+            System.out.println();
         }
     }
 }
