@@ -22,6 +22,7 @@ public class PyramidPattern {
             System.out.println();
             System.out.println();
             System.out.println();
+            System.out.println();
         }
     }
 }
