@@ -17,7 +17,7 @@ public class TaskManager {
         tasks.add(newTask);
         System.out.println("Task created successfully!");
     }
-    public void displayTasks() {
+    public void readTasks() {
         if (tasks.isEmpty()) {
             System.out.println("No tasks available.");
         } else {
