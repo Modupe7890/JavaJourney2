@@ -25,9 +25,11 @@ public class TaskController {
                     String title = input.next();
                     System.out.println("Enter the Description of task");
                     String description = input.next();
-                    taskManager.createTask(title, description);
+                    taskManager.createTasks(title, description);
                 case 2:
-                    taskManager.readTask
+                    taskManager.readTasks();
+                case 3:
+
             }
         }
 

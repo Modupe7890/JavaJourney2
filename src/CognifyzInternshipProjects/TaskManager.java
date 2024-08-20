@@ -12,7 +12,7 @@ public class TaskManager {
         nextId = 1;
     }
 
-    public void createTask(String title, String description) {
+    public void createTasks(String title, String description) {
         Task newTask = new Task(nextId++, title, description);
         tasks.add(newTask);
         System.out.println("Task created successfully!");
@@ -26,7 +26,7 @@ public class TaskManager {
             }
         }
     }
-    public void updateTask(int id, String newTitle, String newDescription) {
+    public void updateTasks(int id, String newTitle, String newDescription) {
         for (Task task : tasks) {
             if (task.getId() == id) {
                 task.setTitle(newTitle);
