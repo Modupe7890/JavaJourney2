@@ -26,10 +26,14 @@ public class TaskController {
                     System.out.println("Enter the Description of task");
                     String description = input.next();
                     taskManager.createTasks(title, description);
+                    break;
                 case 2:
                     taskManager.readTasks();
+                    break;
                 case 3:
-
+                    System.out.println("Update task");
+                    String update = input.next();
+                    System.out.println("");
             }
         }
 
