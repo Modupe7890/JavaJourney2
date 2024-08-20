@@ -31,9 +31,16 @@ public class TaskController {
                     taskManager.readTasks();
                     break;
                 case 3:
-                    System.out.println("Update task");
-                    String update = input.next();
-                    System.out.println("");
+                    System.out.println("Update task ID");
+                    int updateId = input.nextInt();
+                    System.out.println("Enter new task title");
+                    String newTitle = input.next();
+                    System.out.println("Enter new task description");
+                    String newDescription = input.next();
+                    taskManager.updateTasks(updateId, newTitle, newDescription);
+                    break;
+                case 4:
+
             }
         }
 
