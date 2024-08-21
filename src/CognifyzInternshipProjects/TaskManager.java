@@ -4,16 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TaskManager {
-    private List<Task> tasks;
-    private int nextId;
+    private final List<Task> tasks = new ArrayList<>();
 
-    public TaskManager() {
-        tasks = new ArrayList<>();
-        nextId = 1;
-    }
 
     public void createTasks(String title, String description) {
-        Task newTask = new Task(nextId++, title, description);
+        Task newTask = new Task(tasks.size()+1, title, description);
         tasks.add(newTask);
         System.out.println("Task created successfully!");
     }

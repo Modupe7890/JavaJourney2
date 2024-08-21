@@ -37,7 +37,7 @@ public class Task{
 
     @Override
     public String toString() {
-        return "CrudOperation{" +
+        return "Task{" +
                 "id=" + id +
                 ", title='" + title + '\'' +
                 ", description='" + description + '\'' +
