@@ -5,19 +5,19 @@ import java.util.Scanner;
 public class TemperatureConverter {
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
+        Scanner input = new Scanner (System.in);
 
         System.out.println("Please kindly read through and follow the instructions.");
         System.out.println("-------------------------------------------------------");
 
         System.out.print("Enter your Temperature: ");
-        double temp = scanner.nextDouble();
+        double temp = input.nextDouble();
 
         System.out.println("Select your preferred Conversion Option");
         System.out.println("1. Fahrenheit to Celsius: ");
         System.out.println("2. Celsius to Fahrenheit: ");
 
-        int Option = scanner.nextInt();
+        int Option = input.nextInt();
         double convertedTemp;
         switch (Option){
             case 1:
@@ -30,6 +30,7 @@ public class TemperatureConverter {
                         + convertedTemp+ "°F");
                 break;
             default:
+                System.out.println("Invalid Option");
                 System.out.println("Invalid Option");
         }
     }
