@@ -32,5 +32,7 @@ public class PolymorphismTest {
         "reference to subclass object",commissionEmployee2.toString());
         "reference to subclass object",commissionEmployee2.toString());
         "reference to subclass object",commissionEmployee2.toString());
+        "reference to subclass object",commissionEmployee2.toString());
+        "reference to subclass object",commissionEmployee2.toString());
     }
 }
