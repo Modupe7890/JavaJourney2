@@ -72,6 +72,7 @@ public class ToDOList {
     public static void main(String[] args) {
         ToDOList to = new ToDOList();
         to.run();
+        to.run();
     }
 }
 
