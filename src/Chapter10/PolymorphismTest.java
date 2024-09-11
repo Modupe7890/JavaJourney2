@@ -1,10 +1,10 @@
 package Chapter10;
 
 import Chapter9.BasePlusCommissionEmployee;
-import Chapter9.CommissionEmployee;
+
 
 public class PolymorphismTest {
-    public static void main(String[] args) {
+    public static <CommissionEmployee> void main(String[] args) {
         // assign superclass reference to superclass variable
         CommissionEmployee commissionEmployee = new CommissionEmployee(
                 "Sue", "Jones", "222-22-2222",
