@@ -8,15 +8,21 @@ public class Payroll {
         Scanner input = new Scanner(System.in);
 
         int a;
-        int b = 0;
-        int c =0;
+        int b;
+        int c;
+        int d ;
+        int Cal;
 
-        System.out.println("Enter an Integer: ");
+        System.out.println("Enter an Integer for a: ");
+        a = input.nextInt();
+        System.out.println("Enter an Integer for b: ");
         b = input.nextInt();
-        System.out.println("Enter an integer: ");
+        System.out.println("Enter an integer for c: ");
         c = input.nextInt();
+        System.out.println("Enter an Integer for d: ");
+        d = input.nextInt();
 
-         a = b * c;
-        System.out.printf("Sum is %d%n", a);
+        Cal = a * b / (c + d) * 5;
+        System.out.printf("The correct answer is %s%n", Cal);
     }
 }
