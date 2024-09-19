@@ -8,7 +8,7 @@ public abstract class Employee{
 
         //Constructor
 
-    public Employee(String firstName, String lastName, String socialSecurity, String socialSecurityNumber) {
+    public Employee(String firstName, String lastName, String socialSecurity) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.socialSecurity = socialSecurity;
