@@ -15,5 +15,7 @@ public class HourlyEmployee extends Employee{
         if ((hours < 0.0) || (hours > 168.0)) { // validate hours
             throw new IllegalArgumentException("Hours worked must be >= 0.0 and <= 168.0");
         }
+        this.hours = hours;
+        this.wage = wage;
     }
 }
