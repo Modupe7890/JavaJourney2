@@ -18,4 +18,15 @@ public class HourlyEmployee extends Employee{
         this.hours = hours;
         this.wage = wage;
     }
+    // set wage
+        public void setWage(double wage) {
+            if (wage < 0.0) { // validate wage
+                throw new IllegalArgumentException("Hourly wage must be >= 0.0");
+            }
+            this.wage = wage;
+        }
+
+    public double getWage() {
+        return wage;
+    }
 }
