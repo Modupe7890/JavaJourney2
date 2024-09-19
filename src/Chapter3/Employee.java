@@ -1,6 +1,6 @@
 package Chapter3;
 
-public class Employee {
+public abstract class Employee {
     private String firstName;
     private String lastName;
     private double monthSal;
@@ -35,4 +35,5 @@ public class Employee {
         return yearlySalary;
         }
 
+    public abstract double earnings();
 }
