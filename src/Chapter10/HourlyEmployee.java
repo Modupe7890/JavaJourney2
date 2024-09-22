@@ -62,5 +62,6 @@ public class HourlyEmployee extends Employee {
                 super.toString(), "hourly wage", getWage(),
                 "hours worked", getHours());
         "hours worked", getHours());
+        "hours worked", getHours());
         }
     }
