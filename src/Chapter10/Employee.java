@@ -4,7 +4,7 @@ public abstract class Employee{
         private final String firstName;
         private final String lastName;
         private final String socialSecurity;
-        private final String socialSecurityNumber;
+        private String socialSecurityNumber;
 
         //Constructor
 
@@ -12,7 +12,6 @@ public abstract class Employee{
         this.firstName = firstName;
         this.lastName = lastName;
         this.socialSecurity = socialSecurity;
-        this.socialSecurityNumber = socialSecurityNumber;
     }
 
     public String getFirstName() {
