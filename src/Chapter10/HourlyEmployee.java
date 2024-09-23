@@ -64,5 +64,6 @@ public class HourlyEmployee extends Employee {
         "hours worked", getHours());
         "hours worked", getHours());
         "hours worked", getHours());
+        "hours worked", getHours());
         }
     }
