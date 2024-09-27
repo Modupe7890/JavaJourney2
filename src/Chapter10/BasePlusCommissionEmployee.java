@@ -42,5 +42,8 @@ public class BasePlusCommissionEmployee extends CommissionEmployee{
         "base salary", getBaseSalary());
         "base salary", getBaseSalary());
         "base salary", getBaseSalary());
+        "base salary", getBaseSalary());
+        "base salary", getBaseSalary());
+        "base salary", getBaseSalary());
         }
 }
