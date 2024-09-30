@@ -1,6 +1,6 @@
 package Chapter10;
 
-public abstract class Employee{
+public class Employee{
         private final String firstName;
         private final String lastName;
         private final String socialSecurity;
