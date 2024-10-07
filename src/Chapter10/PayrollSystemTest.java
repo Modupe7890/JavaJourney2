@@ -58,6 +58,8 @@ public class PayrollSystemTest {
             employees[j].getClass().getName());
             employees[j].getClass().getName());
             employees[j].getClass().getName());
+            employees[j].getClass().getName());
+            employees[j].getClass().getName());
         }
     }
 }
