@@ -55,9 +55,6 @@ public class PayrollSystemTest {
             System.out.printf("Employee %d is a %s%n", j,
                     employees[j].getClass().getName());
             employees[j].getClass().getName());
-            employees[j].getClass().getName());
-            employees[j].getClass().getName());
-            employees[j].getClass().getName());
         }
     }
 }
